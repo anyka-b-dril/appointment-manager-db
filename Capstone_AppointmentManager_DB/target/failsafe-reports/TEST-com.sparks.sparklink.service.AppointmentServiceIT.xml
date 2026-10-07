@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-failsafe-plugin/xsd/failsafe-test-report-3.0.xsd" version="3.0" name="com.sparks.sparklink.service.AppointmentServiceIT" time="1.157" tests="19" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\anykab\eclipse-workspace\Capstone_AppointmentManager_DB\target\test-classes;C:\Users\anykab\eclipse-workspace\Capstone_AppointmentManager_DB\target\Capstone_AppointmentManager-0.0.1-SNAPSHOT.jar;C:\Users\anykab\.m2\repository\org\mongodb\mongodb-driver-sync\5.8.0\mongodb-driver-sync-5.8.0.jar;C:\Users\anykab\.m2\repository\org\mongodb\bson\5.8.0\bson-5.8.0.jar;C:\Users\anykab\.m2\repository\org\mongodb\mongodb-driver-core\5.8.0\mongodb-driver-core-5.8.0.jar;C:\Users\anykab\.m2\repository\org\mongodb\bson-record-codec\5.8.0\bson-record-codec-5.8.0.jar;C:\Users\anykab\.m2\repository\ch\qos\logback\logback-classic\1.2.11\logback-classic-1.2.11.jar;C:\Users\anykab\.m2\repository\ch\qos\logback\logback-core\1.2.11\logback-core-1.2.11.jar;C:\Users\anykab\.m2\repository\org\slf4j\slf4j-api\1.7.32\slf4j-api-1.7.32.jar;C:\Users\anykab\.m2\repository\org\junit\jupiter\junit-jupiter\5.8.2\junit-jupiter-5.8.2.jar;C:\Users\anykab\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.2\junit-jupiter-api-5.8.2.jar;C:\Users\anykab\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\anykab\.m2\repository\org\junit\platform\junit-platform-commons\1.8.2\junit-platform-commons-1.8.2.jar;C:\Users\anykab\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\anykab\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.8.2\junit-jupiter-params-5.8.2.jar;C:\Users\anykab\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.8.2\junit-jupiter-engine-5.8.2.jar;C:\Users\anykab\.m2\repository\org\junit\platform\junit-platform-engine\1.8.2\junit-platform-engine-1.8.2.jar;"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="user.timezone" value="America/Chicago"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Users\anykab\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.4.v20220903-1038\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\anykab\AppData\Local\Temp\surefire6761549431704425100\surefirebooter-20261007124602077_3.jar C:\Users\anykab\AppData\Local\Temp\surefire6761549431704425100 2026-10-07T12-46-01_987-jvmRun1 surefire-20261007124602077_1tmp surefire_0-20261007124602077_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\anykab\eclipse-workspace\Capstone_AppointmentManager_DB\target\test-classes;C:\Users\anykab\eclipse-workspace\Capstone_AppointmentManager_DB\target\Capstone_AppointmentManager-0.0.1-SNAPSHOT.jar;C:\Users\anykab\.m2\repository\org\mongodb\mongodb-driver-sync\5.8.0\mongodb-driver-sync-5.8.0.jar;C:\Users\anykab\.m2\repository\org\mongodb\bson\5.8.0\bson-5.8.0.jar;C:\Users\anykab\.m2\repository\org\mongodb\mongodb-driver-core\5.8.0\mongodb-driver-core-5.8.0.jar;C:\Users\anykab\.m2\repository\org\mongodb\bson-record-codec\5.8.0\bson-record-codec-5.8.0.jar;C:\Users\anykab\.m2\repository\ch\qos\logback\logback-classic\1.2.11\logback-classic-1.2.11.jar;C:\Users\anykab\.m2\repository\ch\qos\logback\logback-core\1.2.11\logback-core-1.2.11.jar;C:\Users\anykab\.m2\repository\org\slf4j\slf4j-api\1.7.32\slf4j-api-1.7.32.jar;C:\Users\anykab\.m2\repository\org\junit\jupiter\junit-jupiter\5.8.2\junit-jupiter-5.8.2.jar;C:\Users\anykab\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.2\junit-jupiter-api-5.8.2.jar;C:\Users\anykab\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\anykab\.m2\repository\org\junit\platform\junit-platform-commons\1.8.2\junit-platform-commons-1.8.2.jar;C:\Users\anykab\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\anykab\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.8.2\junit-jupiter-params-5.8.2.jar;C:\Users\anykab\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.8.2\junit-jupiter-engine-5.8.2.jar;C:\Users\anykab\.m2\repository\org\junit\platform\junit-platform-engine\1.8.2\junit-platform-engine-1.8.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\anykab"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-08-12"/>
+    <property name="java.home" value="C:\Users\anykab\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.4.v20220903-1038\jre"/>
+    <property name="file.separator" value="\"/>
+    <property name="style.color" value="always"/>
+    <property name="basedir" value="C:\Users\anykab\eclipse-workspace\Capstone_AppointmentManager_DB"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\anykab\AppData\Local\Temp\surefire6761549431704425100\surefirebooter-20261007124602077_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.4.1+1"/>
+    <property name="user.name" value="anykab"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-17.0.4.1+1"/>
+    <property name="localRepository" value="C:\Users\anykab\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\anykab\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.4.1"/>
+    <property name="user.dir" value="C:\Users\anykab\eclipse-workspace\Capstone_AppointmentManager_DB"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Users\anykab\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.4.v20220903-1038\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Users/anykab/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.9.v20251105-0741/jre/bin/server;C:/Users/anykab/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.9.v20251105-0741/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Microsoft SDKs\Azure\CLI2\wbin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Users\anykab\Documents\Terraform;C:\Program Files\Git\cmd;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\nodejs\;C:\Program Files\MongoDB\Server\8.3\bin;C:\Program Files\dotnet\;C:\Users\anykab\AppData\Local\Microsoft\WindowsApps;C:\Users\anykab\AppData\Local\Programs\Microsoft VS Code\bin;C:\msys64\ucrt64\bin;C:\Users\anykab\AppData\Roaming\npm;C:\Users\anykab\.dotnet\tools;C:\WINDOWS\system32;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="17.0.4.1+1"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="testSuccessAddAppointment" classname="com.sparks.sparklink.service.AppointmentServiceIT" time="0.05">
+    <system-out><![CDATA[12:46:03,049 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Found resource [logback-test.xml] at [file:/C:/Users/anykab/eclipse-workspace/Capstone_AppointmentManager_DB/target/test-classes/logback-test.xml]
+12:46:03,113 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - debug attribute not set
+12:46:03,114 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.ConsoleAppender]
+12:46:03,120 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [CONSOLE]
+12:46:03,149 |-WARN in ch.qos.logback.core.ConsoleAppender[CONSOLE] - This appender no longer admits a layout as a sub-component, set an encoder instead.
+12:46:03,149 |-WARN in ch.qos.logback.core.ConsoleAppender[CONSOLE] - To ensure compatibility, wrapping your layout in LayoutWrappingEncoder.
+12:46:03,149 |-WARN in ch.qos.logback.core.ConsoleAppender[CONSOLE] - See also http://logback.qos.ch/codes.html#layoutInsteadOfEncoder for details
+12:46:03,150 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [com.mkyong] to DEBUG
+12:46:03,150 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting additivity of logger [com.mkyong] to false
+12:46:03,150 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [CONSOLE] to Logger[com.mkyong]
+12:46:03,150 |-INFO in ch.qos.logback.classic.joran.action.RootLoggerAction - Setting level of ROOT logger to ERROR
+12:46:03,150 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [CONSOLE] to Logger[ROOT]
+12:46:03,150 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - End of configuration.
+12:46:03,151 |-INFO in ch.qos.logback.classic.joran.JoranConfigurator@71529963 - Registering current configuration as safe fallback point
+
+]]></system-out>
+  </testcase>
+  <testcase name="testSuccessAppointmentIDFormat" classname="com.sparks.sparklink.service.AppointmentServiceIT" time="0.004"/>
+  <testcase name="testSuccessAddMultipleAppointments" classname="com.sparks.sparklink.service.AppointmentServiceIT" time="0.01"/>
+  <testcase name="testFailAddAppointmentDatePast" classname="com.sparks.sparklink.service.AppointmentServiceIT" time="0.006"/>
+  <testcase name="testFailAddAppointmentDateNull" classname="com.sparks.sparklink.service.AppointmentServiceIT" time="0.003"/>
+  <testcase name="testFailAddAppointmentDescTooLong" classname="com.sparks.sparklink.service.AppointmentServiceIT" time="0.003"/>
+  <testcase name="testFailAddAppointmentDescNull" classname="com.sparks.sparklink.service.AppointmentServiceIT" time="0.003"/>
+  <testcase name="testIdUniqueness" classname="com.sparks.sparklink.service.AppointmentServiceIT" time="0.288"/>
+  <testcase name="testSuccessDeleteAppointment" classname="com.sparks.sparklink.service.AppointmentServiceIT" time="0.015">
+    <system-out><![CDATA[Deleted Appointment: ID: 1172621843, Date: Thu Oct 08 12:46:02 CDT 2026
+Error: ID 1172621843 was not found.
+]]></system-out>
+  </testcase>
+  <testcase name="testDeleteMultipleAppointment" classname="com.sparks.sparklink.service.AppointmentServiceIT" time="0.011">
+    <system-out><![CDATA[Deleted Appointment: ID: 2054934907, Date: Thu Oct 08 12:46:02 CDT 2026
+Error: ID 2054934907 was not found.
+]]></system-out>
+  </testcase>
+  <testcase name="testFailDeleteAppointmentUnknownID" classname="com.sparks.sparklink.service.AppointmentServiceIT" time="0.004"/>
+  <testcase name="testFailDeleteAppointmentNullID" classname="com.sparks.sparklink.service.AppointmentServiceIT" time="0.006"/>
+  <testcase name="testSuccessUpdateAppointment" classname="com.sparks.sparklink.service.AppointmentServiceIT" time="0.016"/>
+  <testcase name="testSuccessUpdateAppointmentDate" classname="com.sparks.sparklink.service.AppointmentServiceIT" time="0.01"/>
+  <testcase name="testSuccessUpdateAppointmentDesc" classname="com.sparks.sparklink.service.AppointmentServiceIT" time="0.008"/>
+  <testcase name="testFailUpdateAppointmentUnknownID" classname="com.sparks.sparklink.service.AppointmentServiceIT" time="0.004">
+    <system-out><![CDATA[Error: ID 1234567890 was not found.
+]]></system-out>
+  </testcase>
+  <testcase name="testFailUpdateAppointmentNullID" classname="com.sparks.sparklink.service.AppointmentServiceIT" time="0.008">
+    <system-out><![CDATA[Error: ID null was not found.
+]]></system-out>
+  </testcase>
+  <testcase name="testFailUpdateAppointmentPastDate" classname="com.sparks.sparklink.service.AppointmentServiceIT" time="0.009"/>
+  <testcase name="testFailUpdateAppointmentDescTooLong" classname="com.sparks.sparklink.service.AppointmentServiceIT" time="0.007"/>
+</testsuite>
